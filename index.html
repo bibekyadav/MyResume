@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive resume cv</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Bibek</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="bx bx-home nav__icon"></i>Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>Profile
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>Education
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"
+                ><i class="bx bx-receipt nav__icon"></i>Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link">
+                <i class="bx bx-award nav__icon"></i>Projects
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img
+                  src="assets/img/Bibek.jpg"
+                  alt="Profile pic"
+                  class="home__img"
+                />
+                <h1 class="home__title">BIBEK <b>YADAV</b></h1>
+                <h3 class="home__profession">Front-End Developer</h3>
+              </div>
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i>
+                  Sri Krishna Apartments, Sector 70, Noida-201301
+                </span>
+
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i
+                  >thebibekyadav@gmail.com
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i> 7799874380
+                </span>
+              </div>
+            </div>
+            <!-- Theme change button -->
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+            <div class="social__container bd-grid">
+              <a
+                href="https://www.linkedin.com/in/bibekyadav/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin-square social__icon"></i>@bibekyadav
+              </a>
+              <a
+                href="https://twitter.com/bibekandbibek"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-twitter"></i>@bibekandbibek
+              </a>
+              <a
+                href="https://github.com/bibekyadav"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-github"></i>@bibekyadav
+              </a>
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile"></section>
+          <h2 class="section-title">Profile</h2>
+          <p class="profile__description">
+            "If creating a website is an art, I want to be the Artist"-thats my
+            mantra for creating web apps.
+          </p>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">MASTER OF TECHNOLOGY(IDP)</h3>
+                  <span class="education__studies"
+                    >JNTUH College of Engineering</span
+                  >
+                  <span class="education__year">2013-2018</span>
+                </div>
+              </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">BACHELOR OF TECHNOLOGY(IDP)</h3>
+                  <span class="education__studies"
+                    >JNTUH College of Engineering</span
+                  >
+                  <span class="education__year">2013-2018</span>
+                </div>
+              </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!--span class="education__line"></span-->
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Intermediate</h3>
+                  <span class="education__studies">Pentagon Int'l College</span>
+                  <span class="education__year">2011-2013</span>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>HTML
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"> </span>CSS
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"> </span>BOOTSTRAP
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"> </span>JAVASCRIPT
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"> </span>REACT
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"> </span>REACT NATIVE
+                </li>
+              </ul>
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"> </span>JAVA
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"> </span>PYTHON
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"> </span>C PROGRAMMING
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!--===========PROJECT==========-->
+          <div class="project section" id="certificates">
+            <h2 class="section-title">PROJECTS</h2>
+
+            <div class="project__container bd-grid">
+              <div class="project__content">
+                <h3 class="project__title">
+                  <a href="https://github.com/bibekyadav" class="project__link"
+                    >Restaurant Website</a
+                  >
+                </h3>
+                <p class="project__description">
+                  I have build this website for the restaurant so that the
+                  customers can order online and review the food.
+                </p>
+              </div>
+
+              <div class="project__content">
+                <h3 class="project__title">
+                  <a href="https://github.com/bibekyadav" class="project__link"
+                    >E-commerce website</a
+                  >
+                </h3>
+                <p class="project__description">
+                  This website facilitates user all kind of goods with realtime
+                  tracking of their delivery.
+                </p>
+              </div>
+
+              <div class="project__content">
+                <h3 class="project__title">
+                  <a href="https://github.com/bibekyadav" class="project__link"
+                    >Tic Tac Toe Game</a
+                  >
+                </h3>
+                <p class="project__description">
+                  I have build this tic tac toe game for the users to enjoy and
+                  have fun.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!--========== EXPERIENCE ==========-->
+
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience_container bd-grid">
+              <div class="experience_content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+              </div>
+              <div class="experience__data bd-grid">
+                <h3 class="experience__title">SAP FICO</h3>
+                <span class="experience__comapny">From 2019 to 2021|TCS</span>
+                <p class="experience__description">
+                  Worked in various projects in SAP which involved fresh
+                  implementation of the business requirement and also the
+                  enhancement of the existing configuration,reports ,etc in SAP
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
